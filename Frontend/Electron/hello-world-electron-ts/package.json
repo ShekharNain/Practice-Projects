@@ -1,0 +1,15 @@
+{
+  "name": "hello-world-electron",
+  "version": "1.0.0",
+  "description": "A very simple electron app",
+  "main": "./dist/scripts/main.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "npm run build && npm run start:electron",
+    "start:electron": "electron .",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "electron": "^3.0.10"
+  }
+}
