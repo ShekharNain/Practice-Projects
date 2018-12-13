@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "module": "commonjs",
+    "target": "esnext",
     "noImplicitAny": true,
     "sourceMap": true,
     "outDir": "dist",
