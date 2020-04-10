@@ -29,3 +29,34 @@ document.addEventListener("click", () => {
 
 // subscribe to the event dispatched to store
 store.subscribe(render);
+
+// const myStore = {
+//   let state;
+//   getState() {
+
+//   }
+// }
+
+// const myCreateStore = (reducer: any) => {
+//   let state;
+//   const listeners = [];
+//   const myStore = {
+//     getState() {
+//       return state;
+//     }
+
+//     dispatch(action) {
+//       state = reducer(action, state);
+//       listeners.forEach(listener => listener())
+//     }
+
+//     subscribe(listener) {
+//       listeners.push(listener);
+//       // To unsubscribe the listeners
+//       return () => {
+//         listeners = listeners.filter(i => i != listener)
+//       }
+//     }
+//   }
+//   return myStore;
+// }
