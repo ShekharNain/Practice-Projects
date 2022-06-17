@@ -10,7 +10,7 @@
     "build": "tsc"
   },
   "dependencies": {
-    "electron": "^3.0.10",
+    "electron": "^15.5.5",
     "marked": "^0.7.0"
   },
   "devDependencies": {
